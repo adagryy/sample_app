@@ -11,3 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
+/app/views/static_pages/contact.html.erb
+/db/schema.rb
