@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 gem 'bcrypt', '3.1.10'
+gem 'puma',           '2.13.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
