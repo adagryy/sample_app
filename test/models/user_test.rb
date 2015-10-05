@@ -11,8 +11,8 @@ class UserTest < ActiveSupport::TestCase
   end
   
   test "name should be present" do
-    @user.name = "  "
-    assert_not @user.valid?, "#{@user.name} sdfg" 
+    @user.name = " "
+    assert_not @user.valid?, "--> #{@user.name} <--" 
   end
 
   test "name should not be too long" do
